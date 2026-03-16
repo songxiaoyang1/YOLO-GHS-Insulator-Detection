@@ -33,8 +33,6 @@ Deploying deep learning models on Unmanned Aerial Vehicles (UAVs) for power line
 
 ## 🏗️ Architecture
 
-![YOLO-GHS Architecture](docs/image1.png) 
-*(Note: Please upload your overall network diagram and Figure 5 to a `docs` folder and link them here)*
 
 The framework consists of:
 1. **GhostHGNetV2 Backbone:** Replaces standard convolutions with Ghost convolutions to systematically halve intrinsic feature map channels, stripping away 1.6G FLOPs.
