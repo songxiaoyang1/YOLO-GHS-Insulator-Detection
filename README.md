@@ -52,7 +52,7 @@ Comprehensive comparative experiments  (Real-world Dense Fog & Heavy Snow):
 | YOLOv10s | 8.0 | 16.5 | 26.8 | 93.8 | 55.2 | 70.6 |
 | RT-DETR | 20.0 | 75.0 | 57.0 | 93.5 | 54.8 | 68.7 |
 | YOLOv11n (Baseline) | 2.6 | 5.8 | 6.4 | 94.1 | 56.8 | 94.8 |
-| **YOLO-GHS (Ours)** | **2.5** | **5.6** | **5.4** | **96.8** | **64.2** | **108.5** |
+| **YOLO-GHS (Ours)** | **2.5** | **5.4** | **5.4** | **96.8** | **64.2** | **108.5** |
 
 ---
 
