@@ -3,7 +3,7 @@ To ensure clarity and highlight our exact methodological contributions, this rep
 
 We have isolated and open-sourced the specific files that contain our mathematical and structural innovations:
 * `yolo-ghs.yaml`: The complete structural configuration of our GhostHGNetV2 backbone and head.
-* `seam.py`: The exact PyTorch implementation of the `Detect_SEAM` and the `Channel Exp` ($W_{exp} = e^Z$) mathematical mechanisms.
+* `SEAM.py`: The exact PyTorch implementation of the `Detect_SEAM` and the `Channel Exp` ($W_{exp} = e^Z$) mathematical mechanisms.
 * `yolo-ghs-best.pt`: The pre-trained weights for direct evaluation.
 
 **How to use:** This "plug-and-play" approach allows researchers to easily integrate our `Detect_SEAM` module and YAML configuration into the standard [Ultralytics](https://github.com/ultralytics/ultralytics) ecosystem without navigating thousands of lines of unmodified boilerplate code.
@@ -25,7 +25,7 @@ Deploying deep learning models on Unmanned Aerial Vehicles (UAVs) for power line
 **YOLO-GHS** is an ultra-lightweight, application-driven architecture designed to solve these exact challenges. By introducing a hardware-friendly backbone (**GhostHGNetV2**) and a novel mathematical attention mechanism (**Detect_SEAM**), YOLO-GHS achieves state-of-the-art performance with an exceptionally low memory footprint.
 
 ### 🔥 Key Highlights
-* **Ultra-Lightweight for Edge AI:** Achieves **96.8% mAP@0.5** with only **5.4G FLOPs**, **2.5M parameters**, and a tiny **5.6 MB** model size. It is inherently lighter than the YOLOv11n baseline, making it perfect for UAV edge deployment.
+* **Ultra-Lightweight for Edge AI:** Achieves **96.8% mAP@0.5** with only **5.4G FLOPs**, **2.5M parameters**, and a tiny **5.4 MB** model size. It is inherently lighter than the YOLOv11n baseline, making it perfect for UAV edge deployment.
 * **Feature-Level Exposure Compensation:** Introduces the novel **Detect_SEAM** head. Unlike standard attention that uses linear Sigmoid attenuation (which irreversibly erases weak features under snow/fog), our `Channel Exp` function mathematically guarantees feature preservation using exponential compensation ($W_{exp} = e^Z$). When confidence drops due to occlusion ($Z \to 0$), the weight intrinsically converges to one ($W_{exp} \to 1$), unconditionally preserving the residual features.
 * **Robust in Extreme Weather:** Achieves a massive boost in small object detection ($AP_S$ = 64.2%) on the real-world IDID dataset under severe weather splits.
 
