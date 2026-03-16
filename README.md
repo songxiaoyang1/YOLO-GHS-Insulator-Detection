@@ -2,9 +2,9 @@
 To ensure clarity and highlight our exact methodological contributions, this repository provides the **core innovative modules** rather than a redundant clone of the entire Ultralytics framework. 
 
 We have isolated and open-sourced the specific files that contain our mathematical and structural innovations:
-* `models/yolo-ghs.yaml`: The complete structural configuration of our GhostHGNetV2 backbone and head.
-* `modules/seam.py`: The exact PyTorch implementation of the `Detect_SEAM` and the `Channel Exp` ($W_{exp} = e^Z$) mathematical mechanisms.
-* `weights/yolo-ghs-best.pt`: The pre-trained weights for direct evaluation.
+* `yolo-ghs.yaml`: The complete structural configuration of our GhostHGNetV2 backbone and head.
+* `seam.py`: The exact PyTorch implementation of the `Detect_SEAM` and the `Channel Exp` ($W_{exp} = e^Z$) mathematical mechanisms.
+* `yolo-ghs-best.pt`: The pre-trained weights for direct evaluation.
 
 **How to use:** This "plug-and-play" approach allows researchers to easily integrate our `Detect_SEAM` module and YAML configuration into the standard [Ultralytics](https://github.com/ultralytics/ultralytics) ecosystem without navigating thousands of lines of unmodified boilerplate code.
 
