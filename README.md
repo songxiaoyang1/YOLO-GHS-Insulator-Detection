@@ -21,7 +21,7 @@ Deploying deep learning models on Unmanned Aerial Vehicles (UAVs) for power line
 
 ## 🏗️ Architecture
 
-![YOLO-GHS Architecture](docs/architecture.png) 
+![YOLO-GHS Architecture](docs/image1.png) 
 *(Note: Please upload your overall network diagram and Figure 5 to a `docs` folder and link them here)*
 
 The framework consists of:
