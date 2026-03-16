@@ -67,3 +67,18 @@ model = YOLO('best.pt')
 
 # Run inference on an image
 results = model('path/to/your/image.jpg')
+
+
+2. Architecture Integration
+To train from scratch, place yolo-ghs.yaml into your model configuration directory, and import the SEAM and Detect_SEAM classes from SEAM.py into your framework's module registry.
+
+📝 Citation
+If you find our work or this core implementation useful for your research, please consider citing our paper:
+
+代码段
+@article{yologhs2026,
+  title={YOLO-GHS: A Lightweight Object Detection Model for Insulator Defects in Adverse Weather via Spatial-Channel Exponential Attention},
+  author={[Songxiaoyang] and [Liuliqun]},
+  journal={Under Review},
+  year={2026}
+}
