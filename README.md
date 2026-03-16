@@ -1,7 +1,7 @@
 # YOLO-GHS: A Method for High-Precision Detection of Insulator Defects on Transmission Lines Under Severe Weather Conditions
 
 
-> **Official PyTorch implementation of the core modules for the paper:** > *"YOLO-GHS: A Lightweight Object Detection Model for Insulator Defects in Adverse Weather via Spatial-Channel Exponential Attention"* (Under Review)
+> **Official PyTorch implementation of the core modules for the paper:** > *"YOLO-GHS: A Method for High-Precision Detection of Insulator Defects on Transmission Lines Under Severe Weather Conditions"* (Under Review)
 
 ---
 
